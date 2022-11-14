@@ -24,5 +24,8 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
+figure:nth-of-type(1) {
+	background-color: black;
+}
 
 
