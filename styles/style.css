@@ -24,8 +24,20 @@ button, summary {
 /* JOUW STYLING */
 /****************/
 
+/* banner element bovenaan pagina */
+
 figure:nth-of-type(1) {
+	width: 100vw;
+	height: 10vh;
 	background-color: black;
 }
+
+figure:nth-of-type(1), p {
+	color: white;
+}
+
+/* banner element bovenaan pagina */
+
+
 
 
