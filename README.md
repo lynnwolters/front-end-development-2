@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lynn Wolters
 
   #### Je startniveau:
-  Zwart
+  Rood
 
   #### Je focus:
   Surface plane
