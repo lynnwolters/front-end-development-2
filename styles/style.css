@@ -10,34 +10,64 @@ button, summary {
   	cursor: pointer;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    /* colors */
+	--primary-color: white;
+	--secondary-color: black;
+	--tertiary-color: #001D7C;
+	--quaternary-color: #E8E8E8;
+
+	/* font */
+	--primary-font: 'Inter', sans-serif;
+	--primary-font-weight: 200;
+
+	/* font sizes */
+	--h1-font-size: 2em;
+	--h2-font-size: 1.5em;
+	--h3-font-size: 1em;
+	--h4-font-size: 0.5em;
+	--h5-font-size: 0.3em;
+	--p-font-size: 0.750em;
 }
 
 /****************/
-/* JOUW STYLING */
+/* MOBIEL */
 /****************/
 
-/* banner element bovenaan pagina */
+/* (mobiel) banner element bovenaan pagina */
 
-figure:nth-of-type(1) {
-	width: 100vw;
-	height: 10vh;
-	background-color: black;
-	color: white;
+figure {
+	background-color: var(--secondary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--primary-color);
+	font-family: var(--primary-font);
+	font-weight: var(--primary-font-weight);
+	font-size: var(--p-font-size);
+	padding: 0.500em 0.250em;
 }
 
-figure:nth-of-type(1), a {
-	
+figure a {
+	color: var(--primary-color);	
 }
 
-/* banner element bovenaan pagina */
+nav {
+	background-color: var(--primary-color);
+}
+
+/* (mobiel) banner element bovenaan pagina */
 
 
 
