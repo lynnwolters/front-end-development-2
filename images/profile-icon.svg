@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
   <g id="Group_4" data-name="Group 4" transform="translate(-132 -103)">
-    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(136 103)" fill="#fff" stroke="#707070" stroke-width="1">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(136 103)" fill="#fff" stroke="#000000" stroke-width="1">
       <circle cx="4" cy="4" r="4" stroke="none"/>
       <circle cx="4" cy="4" r="3.5" fill="none"/>
     </g>
-    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(132 112)" fill="#fff" stroke="#707070" stroke-width="1">
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(132 112)" fill="#fff" stroke="#000000" stroke-width="1">
       <path d="M6,0h4a6,6,0,0,1,6,6V7a0,0,0,0,1,0,0H0A0,0,0,0,1,0,7V6A6,6,0,0,1,6,0Z" stroke="none"/>
       <path d="M6,.5h4A5.5,5.5,0,0,1,15.5,6v.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V6A5.5,5.5,0,0,1,6,.5Z" fill="none"/>
     </g>

@@ -136,18 +136,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  #### Ging goed
+  - Semantische HTML structuur 
+  - Werken met CSS selectoren
 
+  #### Kon beter
+  - Positioneren van elementen
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Guido: Hoe verberg je de H1 voor screenreader en hoe laat je een button mee schuiven met de afbeelding?
 
+  Chloé: Hoe kan je de navbar hergroeperen als je de site groter maakt?
+
+  Lynn: Wat is de beste manier om een slider in je website te implementeren die responsive ook goed werkt?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
