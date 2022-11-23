@@ -41,12 +41,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home Pagina 
   <br>
-  <img src="readme-images/home-pagina-aceandtate.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/homepagina-aceandtate.jpg" width="375px" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Product Pagina
   <br>
-  <img src="readme-images/product-pagina-aceandtate.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/productpagina-aceandtate.jpg" width="375px" alt="productpagina">
  
 </details>
 
@@ -57,31 +57,52 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Getest door: Guido Van Sark
+  Site van: Lynn Wolters
 
-  #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Screenreader test
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Links
+  - Alle links doen het je kan op die manier naar de content navigeren die je leuk vindt.
 
+  Koppen
+  - De zoek knop wordt niet als knop weergeven
+  - De ‘shop nu’ knop wordt niet als knop weergeven
+  - De chatfunctie van de site kun je niet bereiken, deze wordt niet als knop weergeven
 
-  #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De formulier regelaar 
+  - Deze doet het wel, je kunt je email invullen
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Orientatiepunten
+  - De screenreader vertelt waar je momenteel bent
+  - De kaders worden weergeven op de juiste manier
+  - De navigatie doet het, alleen je kunt dus niet naar de zoekknop navigeren
+  - De screenreader kan alle woorden en tekens lezen
+  - De vensterspots worden weergeven door de screenreader
 
+  Muis, toetsenbord & kleurtjes test
 
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Voor een kleurenblinde vallen de kleuren van de brillen weg, Ace & Tate heeft dit al opgelost door de naam van het type kleur erboven te laten zien. Verder valt er niks weg en kunnen kleurenblinden hier gebruik van maken.
+  - Met de tabknoppen ga je langs alle kopjes en dit doet het gewoon, aan de hand van de pijtjes kun je door de gehele pagina scrollen.
+  - Met de tabknop kan ik niet langs de navigatiebalk gaan en bij de “shop nu” button komen. Hij laat dan niet zien waar je je bevindt op de site.
+  - Met enter kun je op het geselecteerde item klikken die een link in zich hebben.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Diverse beperkingen test
 
+  Zicht
+  Aan de hand van bepaalde brillen wordt het zicht op de site beperkt. de site is wordt dan ook minder goed bruikbaar. Bij Ace & Tate gebeurt het volgende: Doordat je minder zicht ervaart wordt het lastiger om bepaalde knoppen selecteren. De teksten zijn ook vaak te klein om te lezen.
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Handbeperking
+  Aan de hand van bepaalde handbeperkingen is het moeilijker om op de knoppen te drukken. Ace & Tate zouden grotere knoppen moeten maken. De Afbeeldingen zijn wel groot genoeg om op te kunnen klikken.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Spierbeperking 
+  Voor mensen met een spierbeperking is het moeilijker om op een site te typen. Ace & Tate zou dus grotere knoppen kunnen maken om de gebruiker sneller te begeleiden naar zijn/haar keuze.
+
+  Darkmode
+  De optie darkmode heeft geen effect op de website van Ace & Tate.
+
+  ADHD
+  Door meerdere dingen tegelijkertijd te doen kunnen je ADHD op de site van Ace & Tate testen. Je ervaart meer afleiding door meerdere dingen tegelijkertijd te doen. Op de website van Ace & Tate zijn veel verschillende soorten afbeeldingen die kunnen worden gezien als prikkels. Dit kan tegenwerken voor mensen met ADHD, waardoor ze sneller naar een andere kledingsite kunnen navigeren.
 
 </details>
 
