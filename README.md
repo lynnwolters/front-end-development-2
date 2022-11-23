@@ -60,10 +60,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Getest door: Guido Van Sark
   <br>
   Site van: Lynn Wolters
-  <br>
-  <br>
+
   Screenreader test)
-  <br>
+
   Links
   - Alle links doen het je kan op die manier naar de content navigeren die je leuk vindt.
 
