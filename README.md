@@ -63,8 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
 
-  #### Screenreader
-  Screenreader test)
+  #### Screenreader test
 
   Links
   - Alle links doen het je kan op die manier naar de content navigeren die je leuk vindt.
@@ -84,16 +83,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De screenreader kan alle woorden en tekens lezen
   - De vensterspots worden weergeven door de screenreader
 
-  #### Muis en Toetsenbord 
-  Muis, toetsenbord & kleurtjes test)
+  #### Muis, toetsenbord & kleurtjes test
 
   - Voor een kleurenblinde vallen de kleuren van de brillen weg, Ace & Tate heeft dit al opgelost door de naam van het type kleur erboven te laten zien. Verder valt er niks weg en kunnen kleurenblinden hier gebruik van maken.
   - Met de tabknoppen ga je langs alle kopjes en dit doet het gewoon, aan de hand van de pijtjes kun je door de gehele pagina scrollen.
   - Met de tabknop kan ik niet langs de navigatiebalk gaan en bij de “shop nu” button komen. Hij laat dan niet zien waar je je bevindt op de site.
   - Met enter kun je op het geselecteerde item klikken die een link in zich hebben.
 
-  #### Motoriek (shocks, elastiekjes) &  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Diverse beperkingen test)
+  #### Diverse beperkingen test
 
   Zicht
   Aan de hand van bepaalde brillen wordt het zicht op de site beperkt. de site is wordt dan ook minder goed bruikbaar. Bij Ace & Tate gebeurt het volgende: Doordat je minder zicht ervaart wordt het lastiger om bepaalde knoppen selecteren. De teksten zijn ook vaak te klein om te lezen.
