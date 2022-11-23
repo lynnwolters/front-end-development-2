@@ -61,6 +61,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Site van: Lynn Wolters
 
+  ### Bevindingen
+
+  #### Screenreader
   Screenreader test)
 
   Links
@@ -81,6 +84,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De screenreader kan alle woorden en tekens lezen
   - De vensterspots worden weergeven door de screenreader
 
+  #### Muis en Toetsenbord 
   Muis, toetsenbord & kleurtjes test)
 
   - Voor een kleurenblinde vallen de kleuren van de brillen weg, Ace & Tate heeft dit al opgelost door de naam van het type kleur erboven te laten zien. Verder valt er niks weg en kunnen kleurenblinden hier gebruik van maken.
@@ -88,6 +92,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Met de tabknop kan ik niet langs de navigatiebalk gaan en bij de “shop nu” button komen. Hij laat dan niet zien waar je je bevindt op de site.
   - Met enter kun je op het geselecteerde item klikken die een link in zich hebben.
 
+  #### Motoriek (shocks, elastiekjes) &  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Diverse beperkingen test)
 
   Zicht
