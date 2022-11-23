@@ -62,7 +62,7 @@ p {
 
 /* (mobiel) banner element bovenaan pagina */
 
-figure {
+header figure {
 	background-color: var(--secondary-color);
 	display: flex;
 	justify-content: center;
@@ -72,23 +72,102 @@ figure {
 	padding: 0.500em 0.250em;
 }
 
-figure a {
+header figure a {
 	color: var(--primary-color);	
 }
 
-nav {
-	display: flex;
-	align-items: center;
+header nav:nth-of-type(1) {
 	background-color: var(--primary-color);
 	width: 100vw;
-	height: 45px;
+	display: flex;
+	align-items: center;
+	height: 5vh;
+	justify-content: center;
+	border-bottom: 0.08em solid lightgray;
 }
 
-nav h4 {
-	font-weight: 400;
+.top-nav img:nth-of-type(1) {
+	width: 2.5em;
+	height: 0.8em;
+	left: 0;
 }
 
-/* (mobiel) banner element bovenaan pagina */
+.top-nav img:nth-of-type(2) {
+	width: 8em;
+	height: 3em;
+}
+
+.top-nav {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.bottom-nav {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+
+.left-wrapper {
+	width: 60vw;
+}
+
+.right-wrapper {
+	width: 40vw;
+}
+
+.right-wrapper img {
+	padding: 0.4em;
+}
+
+header nav:nth-of-type(2) {
+	width: 100vw;
+	display: flex;
+	background-color: var(--primary-color);
+	align-items: center;
+	justify-content: center;
+	border-bottom: 0.04em solid black;
+}
+
+header nav:nth-of-type(2) h4 {
+	font-weight: 500;
+	margin: 0 auto;
+	padding: 0.8em;
+}
+
+header {
+	position: relative;
+}
+
+header video {
+	object-fit: cover;
+	width: 100vw;
+	height: 60vh;
+}
+
+header button {
+	position: absolute;
+	border-radius: 2000em;
+	background-color: var(--primary-color);
+	border: none;
+	padding: 1.2em 3em;
+	top: 88%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section {
+	background-color: var(--secondary-color);
+	text-align: center;
+}
+
+section h4 {
+	padding: 4em;
+	font-weight: 200;
+	color: var(--primary-color);
+}
 
 
 
