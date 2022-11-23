@@ -61,6 +61,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <br>
   Site van: Lynn Wolters
   <br>
+  <br>
   Screenreader test)
 
   Links
