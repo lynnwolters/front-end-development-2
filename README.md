@@ -58,8 +58,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
   <br>
   Getest door: Guido Van Sark
+  <br>
   Site van: Lynn Wolters
-
+  <br>
   Screenreader test)
 
   Links
