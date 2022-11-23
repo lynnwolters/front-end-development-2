@@ -145,8 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Positioneren van elementen
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
+  
   Guido: Hoe verberg je de H1 voor screenreader en hoe laat je een button mee schuiven met de afbeelding?
 
   Chloé: Hoe kan je de navbar hergroeperen als je de site groter maakt?
