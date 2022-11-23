@@ -56,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 1e werkgroep</summary>
-
+<br>
   Getest door: Guido Van Sark
 
   Site van: Lynn Wolters
