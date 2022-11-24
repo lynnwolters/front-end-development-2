@@ -1,52 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Lynn Wolters">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Lynn Wolters</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lynn Wolters" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body>
+    <title>Lynn Wolters</title>
 
-	<header>
-		<figure>
-			<p>Ontdek onze nieuwe collectie. <a href="#">Shop nu</a></p>
-		</figure>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/home-page.css" rel="stylesheet" />
+    <link href="styles/product-page.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  </head>
 
-		<nav>
-			<div class="top-nav left-wrapper">
-			<img src="images/hamburger-menu.svg" alt="hamburger-menu">
-			<img src="images/ace-and-tate-logo.png" alt="logo">
-			</div>
-			<div class="bottom-nav right-wrapper">
-			<img src="images/search-icon.svg" alt="search-icon">
-			<img src="images/favorite-icon.svg" alt="favorite-icon">
-			<img src="images/profile-icon.svg" alt="profile-icon">
-			<img src="images/shopping-bag-icon.svg" alt="shopping-bag-icon">
-			</div>
-		</nav>
-		<nav>
-			<h4>Brillen</h4>
-			<h4>Zonnebrillen</h4>
-			<h4>Oogmeting</h4>
-		</nav>
-		<video src="images/header-video.mp4"></video>
-			<button>Shop nu</button>	
-	</header>
+  <body>
+    <header>
+      <a href=""><img src="images/ace-and-tate-logo.png" width="120em" height="24em" alt="logo"/></a>
 
-	<section>
-		<h4>Zorgvuldig ontworpen brillen op sterkte, vanaf € 110.</h4>
-	</section>
-	
-	<script defer src="scripts/script.js"></script>
+      <button>
+        <img src="images/hamburger-menu.svg" width="24em" height="24em" alt="hamburger-menu" />
+      </button>
 
-</body>
-	
+      <nav></nav>
+
+      <nav>
+        <ul>
+          <li>
+            <button>
+              <img src="images/search-icon.svg" alt="search-icon" />
+            </button>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/favorite-icon.svg" alt="favorite-icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/profile-icon.svg" alt="profile-icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/shopping-bag-icon.svg" alt="shopping-bag-icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Brillen</a>
+          </li>
+          <li>
+            <a href="#">Zonnebrillen</a>
+          </li>
+          <li>
+            <a href="#">Oogmeting</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul>
+        <li>Ontdek onze nieuwe collectie. <a href="#">Shop nu</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <h1>Welkom bij ace & tate</h1>
+
+      <section>
+        <h2>ace en tate sport</h2>
+        <video muted autoplay>
+          <source src="images/video.mp4" type="video/mp4" />
+        </video>
+        <a href="#">Shop nu</a>
+      </section>
+
+      <section>
+        <p>
+          Zorgvuldig ontworpen brillen op sterkte, <span>vanaf € 110.</span>
+        </p>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script defer src="scripts/script.js"></script>
+  </body>
 </html>

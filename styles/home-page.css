@@ -1,0 +1,102 @@
+/*********/
+/* MOBIEL */
+/*********/
+
+header {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1.8em 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 0px;
+    height: 100%;
+}
+
+header > ul {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > ul li {
+    list-style: none;
+    font-size: 0.700em;
+    font-weight: 100;
+}
+
+header > ul li a{
+    color: var(--primary-color);
+}
+
+header > button {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    background-color: orange;
+}
+
+header > a {
+    background-color: blue;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+header nav:nth-of-type(1) {
+    display: none;
+}
+
+header nav:nth-of-type(2) {
+    background-color: green;
+    list-style: none;
+}
+
+header nav:nth-of-type(2) ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+header nav:nth-of-type(2) li {
+    list-style: none;
+}
+
+header nav:nth-of-type(3) {
+    background-color: red;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 4;
+}
+
+header nav:nth-of-type(3) ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+header nav:nth-of-type(3) li {
+    padding: 1em;
+    list-style: none;
+}
+
+header nav:nth-of-type(3) li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+main section:nth-of-type(1) video {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+}
+

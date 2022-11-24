@@ -39,14 +39,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.aceandtate.com/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home Pagina 
+  Home Page
   <br>
-  <img src="readme-images/home-pagina-ace-and-tate.jpg" width="375px" alt="home-pagina">
+  <img src="readme-images/home-page-ace-and-tate.jpg" width="375px" alt="home-page">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Product Pagina
+  Product Page
   <br>
-  <img src="readme-images/product-pagina-ace-and-tate.jpg" width="375px" alt="product-pagina">
+  <img src="readme-images/product-page-ace-and-tate.jpg" width="375px" alt="product-page">
  
 </details>
 
@@ -153,12 +153,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lynn: Wat is de beste manier om een slider in je website te implementeren die responsive ook goed werkt?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  
+  Tijdens de meeting hebben wij met het groepje onze eerste versie laten zien en besproken. We kregen feedback van Sanne en gaven ook feedback op elkaars werk. Mijn feedback ging vooral om het schrijven van semantisch correcte HTML, zoals dat ik bepaalde elementen was vergeten of een verkeerde volgorde had aangenomen. Dit heb ik tergelijktijd aangepast. Ook heb ik antwoord gekregen op mijn vraagstuk: Wat is de beste manier om een slider in je website te implementeren die responsive ook goed werkt? Ik weet nu hoe ik dat moet doen en mijn groepsgenoten hadden er ook veel aan. Verder zijn de vraagstukken van de andere groepsleden besproken en ook dit was leerzaam. 
 
 </details>
 
