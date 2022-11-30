@@ -49,7 +49,11 @@ h5 {
 }
 
 p {
-	font-size: 0.700em;
+	font-size: 0.7em;
+}
+
+a {
+	font-size: 1em;
 }
 
 /*********************/
@@ -62,6 +66,7 @@ p {
 	--secondary-color: black;
 	--tertiary-color: #001D7C;
 	--quaternary-color: #E8E8E8;
+	--quinary-color: #EDE6DD;
 }
 
 

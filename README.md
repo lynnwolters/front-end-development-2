@@ -168,26 +168,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  #### Ging goed
+  - Semantische HTML & CSS selectoren
+  - Slider
+  - Grid 
+  - Items positioneren met grid
+
+  #### Kon beter
+  - Bepaalde css dingen meer begrijpen i.p.v. het toevoegen omdat het maar werkt
+  - Positioneren met position, transform/translate etc.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Guido: ?
 
+  Chloé: ?
+
+  Lynn: Hoe maak je de buttons in de slider die ervoor zorgen dat je een andere kleur kunt selecteren?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
 
 </details>
 

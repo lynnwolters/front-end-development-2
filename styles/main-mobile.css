@@ -1,0 +1,292 @@
+/*********/
+/* MOBIEL */
+/*********/
+
+/* h1 voor toegankelijkheid */ 
+main h1 {
+    display: none;
+}
+
+/* Titel in video */ 
+main section:nth-of-type(1) h2 {
+    display: none;
+}
+
+/* Video */ 
+main section:nth-of-type(1) video {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+    margin-bottom:-1em;
+}
+
+main section:nth-of-type(1) button {
+    position: absolute;
+    transform: translate(-50%, -35%);
+    top: 65%;
+    left: 50%;
+    padding: 1em 2em;
+    border-radius: 1000em;
+    border: none;
+    background-color: var(--primary-color);
+}
+
+main section:nth-of-type(1) button a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* Quote banner */ 
+main section:nth-of-type(2) {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:nth-of-type(2) h5 {
+    color: var(--primary-color);
+    padding: 4em;
+    text-align: center;
+    font-weight: 400;
+}
+
+main section:nth-of-type(2) h5 span {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    line-height: 1.6em;
+}
+
+/* Ontdek onze bestsellers */ 
+main section:nth-of-type(3) {
+    width: 100vw;
+    position: relative;
+}
+
+main section:nth-of-type(3) h2 {
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+main section:nth-of-type(3) h2 span {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+main section:nth-of-type(3) ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: scroll;
+    overflow-y: hidden;
+	list-style: none;
+    height: 28em;
+    margin-left: 1em;
+}
+
+main section:nth-of-type(3) ul li {
+    width: 12em;
+    height: 16em;
+	flex-shrink: 0;
+}
+
+main section:nth-of-type(3) ul li:last-of-type {
+    margin-right: 1em;
+}
+
+main section:nth-of-type(3) ul li img {
+	width: 100%;
+    height: 16em;
+    object-fit: cover;
+}
+
+main section:nth-of-type(3) ul li h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    padding: 0.5em 0;
+}
+
+main section:nth-of-type(3) ul li p {
+    font-weight: 100;
+}
+
+main section:nth-of-type(3) button {
+    width: 60vw;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 1000em;
+    padding: 1em 2em;
+    position: absolute;
+    transform: translate(-50%, -15%);
+    top: 85%;
+    left: 50%;
+}
+
+main section:nth-of-type(3) button a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Shop onze gift guide */ 
+main section:nth-of-type(4) {
+    width: 100vw;
+    background-color: var(--quinary-color);
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+main section:nth-of-type(4) img {
+    width: 100vw;
+}
+
+main section:nth-of-type(4) h5 {
+    font-weight: 400;
+    padding-top: 1.5em
+}
+
+main section:nth-of-type(4) h2 {
+    padding: 0.8em;
+    font-weight: 400;
+    text-align: center;
+}
+
+main section:nth-of-type(4) button {
+    width: 60vw;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 1000em;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+}
+
+main section:nth-of-type(4) button a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Nieuw */ 
+main section:nth-of-type(5) {
+    width: 100vw;
+    position: relative;
+    background-color: var(--secondary-color);
+}
+
+main section:nth-of-type(5) h2 {
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    color: var(--primary-color);
+}
+
+main section:nth-of-type(5) ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: scroll;
+    overflow-y: hidden;
+	list-style: none;
+    height: 26em;
+    margin-left: 1em;
+}
+
+main section:nth-of-type(5) ul li {
+    width: 12em;
+    height: 16em;
+	flex-shrink: 0;
+}
+
+main section:nth-of-type(5) ul li:last-of-type {
+    margin-right: 1em;
+}
+
+main section:nth-of-type(5) ul li img {
+	width: 100%;
+    height: 16em;
+    object-fit: cover;
+}
+
+main section:nth-of-type(5) ul li p {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 0.5em 0;
+    color: var(--primary-color);
+    padding-top: 1em;
+}
+
+main section:nth-of-type(5) ul li h5 {
+    color: var(--primary-color); 
+    font-weight: 400;
+    line-height: 1.6em;
+    padding: 0.8em 0;
+}
+
+main section:nth-of-type(5) ul li a {
+    color: var(--primary-color); 
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+/* We zijn er om te helpen */ 
+main section:nth-of-type(6) {
+    width: 100vw;
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+main section:nth-of-type(6) h2 {
+    font-weight: 400;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    color: var(--secondary-color);
+}
+
+main section:nth-of-type(6) ul {
+	display: flex;
+	gap: 1em;
+	overflow-x: scroll;
+    overflow-y: hidden;
+	list-style: none;
+    height: 20em;
+    margin-left: 1em;
+}
+
+main section:nth-of-type(6) ul li {
+    width: 12em;
+    height: 16em;
+	flex-shrink: 0;
+}
+
+main section:nth-of-type(6) ul li:last-of-type {
+    margin-right: 1em;
+}
+
+main section:nth-of-type(6) ul li img {
+	width: 100%;
+    height: 16em;
+    object-fit: cover;
+}
+
+main section:nth-of-type(6) ul li p {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 0.5em 0;
+    color: var(--secondary-color);
+    padding-top: 1em;
+}
+
+main section:nth-of-type(6) ul li h5 {
+    color: var(--secondary-color);
+    font-weight: 400;
+    line-height: 1.6em;
+    padding: 0.8em 0;
+}
+
+main section:nth-of-type(6) ul li a {
+    color: var(--secondary-color);
+    font-weight: 100;
+    font-size: 0.8em;
+}
