@@ -17,9 +17,14 @@ footer h3 {
 footer h5 {
     color: var(--primary-color);
     font-weight: 400;
+    padding: 1em 0;
 }
 
-footer ul:nth-of-type(1)  li a {
+footer ul:nth-of-type(1) li {
+    padding: 0.2em 0;
+}
+
+footer ul:nth-of-type(1) li a {
     color: var(--primary-color);
 }
 
@@ -43,3 +48,40 @@ footer ul:nth-of-type(2) li a {
     text-decoration: none;
     font-size: 1.5em;
 }
+
+footer > img {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    width: 4em;
+}
+
+footer > h3 {
+    padding-bottom: 2em;
+}
+
+footer ul:nth-of-type(3) {
+    display: flex;
+}
+
+footer ul:nth-of-type(3) img {
+    width: 1em;
+    height: 1em;
+}
+
+footer ul:nth-of-type(3) li {
+    list-style: none;
+}
+
+footer ul:nth-of-type(3) li a {
+    color: var(--primary-color);
+    padding-left: 1em;
+}
+
+footer hr {
+    margin: 2em 0;
+}
+
+footer p {
+    color: var(--primary-color); 
+}
+
