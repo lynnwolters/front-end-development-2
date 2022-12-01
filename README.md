@@ -181,9 +181,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
 
-  Guido: ?
+  Guido: Niet aanwezig
 
-  Chloé: ?
+  Chloé: Hoe kan je ervoor zorgen dat de content dezelfde grote blijft als ke de pagina groter en kleiner maakt? Hoe kan je in de carousel pijltjes maken waar je op kunt klikken om te navigeren?
 
   Lynn: Hoe maak je de buttons in de slider die ervoor zorgen dat je een andere kleur kunt selecteren?
 
