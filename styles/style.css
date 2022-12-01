@@ -52,7 +52,7 @@ p {
 	font-size: 0.7em;
 }
 
-a {
+a, input, placeholder {
 	font-size: 1em;
 }
 
@@ -67,6 +67,7 @@ a {
 	--tertiary-color: #001D7C;
 	--quaternary-color: rgb(249, 249, 251);
 	--quinary-color: #EDE6DD;
+	--senary-color: rgb(232, 232, 232);
 }
 
 

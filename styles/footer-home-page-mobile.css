@@ -1,0 +1,45 @@
+/***************************/
+/* FOOTER HOME PAGE MOBIEL */
+/***************************/
+
+/* Footer */ 
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 2em 1em;
+}
+
+footer h3 {
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+footer h5 {
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+footer ul:nth-of-type(1)  li a {
+    color: var(--primary-color);
+}
+
+footer ul:nth-of-type(1) li a img {
+    width: 1em;
+    height: 1em;
+    margin-right: 1em;
+}
+
+footer ul:nth-of-type(2){
+    padding-top: 2em;
+}
+
+footer ul:nth-of-type(2) li {
+    padding: 0.5em 0;
+    list-style: none;
+}
+
+footer ul:nth-of-type(2) li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.5em;
+}
