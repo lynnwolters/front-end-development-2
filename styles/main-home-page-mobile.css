@@ -319,7 +319,7 @@ main section:nth-of-type(7) ul li {
 }
 
 main section:nth-of-type(7) ul li a img {
-    width: 12em;
+    width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
