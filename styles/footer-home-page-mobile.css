@@ -85,3 +85,59 @@ footer p {
     color: var(--primary-color); 
 }
 
+footer ul:nth-of-type(4) {
+    display: flex;
+    padding-top: 1.5em;
+}
+
+footer ul:nth-of-type(4) li {
+    list-style: none;
+}
+
+footer ul:nth-of-type(4) li a {
+    padding-left: 0.4em;
+}
+
+footer ul:nth-of-type(4) li a img {
+    width: 1em;
+    height: 1em;
+}
+
+footer ul:nth-of-type(5) {
+    display: flex;
+    padding: 1em 0;
+}
+
+footer ul:nth-of-type(5) li {
+    list-style: none;
+}
+
+footer ul:nth-of-type(5) li a {
+    padding-left: 0.5em;
+}
+
+footer ul:nth-of-type(5) li a img {
+    width: 2.4em;
+    height: 1.8em;
+    background-color: var(--primary-color); 
+    border-radius: 0.4em;
+}
+
+footer ul:nth-of-type(6) {
+    display: flex;
+    flex-flow: wrap;
+}
+
+footer ul:nth-of-type(6) li {
+    list-style: none;
+    padding-right: 1em;
+}
+
+footer ul:nth-of-type(6) li a {
+   color: var(--primary-color); 
+   font-size:  0.7em;
+   text-decoration: none;
+   text-transform: none;
+   font-weight: 100;
+}
+
