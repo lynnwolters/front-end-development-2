@@ -1,0 +1,13 @@
+/**************************/
+/* HEADER TABLET HOME PAGE */
+/**************************/
+
+@media (min-width: 30em) {
+
+/* Top navigatie (iconen) */ 
+  header nav:nth-of-type(2) ul {
+    justify-content: end;
+    margin-right: 1em;
+  }
+
+}
