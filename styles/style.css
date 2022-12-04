@@ -15,6 +15,7 @@ button, summary {
 	padding: 0;
 }
 
+/* Chatbot */ 
 body > img {
 	position: fixed;
 	bottom: 1em;
@@ -22,6 +23,15 @@ body > img {
 	z-index: 1000;
 	width: 4em;
 	height: 3.5em;
+}
+
+/* Chatbot verwijderen desktop */ 
+@media (min-width: 58em)  {
+
+	body > img {
+	display: none;
+ }
+	
 }
 
 /*********/

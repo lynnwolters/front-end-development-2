@@ -2,6 +2,60 @@
 /* HEADER DESKTOP HOME PAGE */
 /***************************/
 
-@media (min-width: 64em) {
-    
+@media (min-width: 58em) {
+
+  /* Header ander grid geven */
+  header {
+    grid-template-rows: 1.8em 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
+  }
+
+  /* Logo*/
+  header > a {
+    justify-content: center;
+  }
+
+  /* Logo*/
+  header nav:nth-of-type(2) ul {
+    justify-content: center;
+  }
+
+  /* Desktop navbar zichtbaar maken + positioneren + stijlen */
+  header nav:nth-of-type(4) {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+  }
+
+  header nav:nth-of-type(4) ul li {
+    list-style: none;
+    display: inline;
+  }
+
+  header nav:nth-of-type(4) ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0 0.5em;
+  }
+
+  /* Hamburger menu verwijderen */
+  header > button {
+    display: none;
+  }
+
+  /* Top navigatie profiel icoon verwijderen */
+  header nav:nth-of-type(2) ul li:nth-of-type(3) {
+    display: none;
+  }
+
+  /* Bottom navigatie verwijderen */
+  header nav:nth-of-type(3) {
+    display: none;
+  }
+
 }

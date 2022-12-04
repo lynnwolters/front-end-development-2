@@ -120,3 +120,8 @@ header nav:nth-of-type(3) li a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+/* Desktop navbar */ 
+header nav:nth-of-type(4) {
+    display: none;
+}

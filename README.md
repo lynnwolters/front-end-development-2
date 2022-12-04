@@ -189,6 +189,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
 
+  Tijdens de meeting met de klassenbegeleiders heb ik antwoord gekregen op mijn vraagstuk. Zij adviseerden mij om buttons te gebruiken, deze te stylen en vervolgens met Javascript deze te laten werken zodat er andere foto's komen. Ook heb ik antwoord gekregen op andere vragen. Die gingen met name over hoe je bepaalde dingen positioneert en wat daar de beste manier voor is. Ik kon vanuit hier weer verder met het bouwen van de website. Mijn code werd ook goed gekeurd, ze hadden geen op- of aanmerkingen. Daarna waren mijn groepsgenoten aan de beurt voor hun vraagstukken. 
+
 </details>
 
 
