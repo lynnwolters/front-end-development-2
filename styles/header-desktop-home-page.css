@@ -10,12 +10,18 @@
     grid-template-columns: 1fr 5fr 1fr;
   }
 
+
+/* Hamburger menu verbergen */ 
+header nav:nth-of-type(1) {
+  display: none;
+}
+
   /* Logo*/
   header > a {
     justify-content: center;
   }
 
-  /* Logo*/
+  /* Top navigatie (iconen) */ 
   header nav:nth-of-type(2) ul {
     justify-content: center;
   }
