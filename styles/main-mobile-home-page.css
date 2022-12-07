@@ -7,10 +7,16 @@ main h1 {
     display: none;
 }
 
-/* Titel in video */ 
-main section:nth-of-type(1) h2 {
-    display: none;
-}
+/* Titel in video verbergen */ 
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 
 /* Video */ 
 main section:nth-of-type(1) video {

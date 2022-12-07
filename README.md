@@ -197,37 +197,53 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Toegankelijkheidstest 2/2 (week 4)
+## Toegankelijkheidstest 1/2 (week 1)
 
 <details open>
-  <summary>uitwerken na test in 8e werkgroep</summary>
+  <summary>uitwerken na test in 1e werkgroep</summary>
+<br>
+  Getest door: Agnes Verhagen
+
+  Site van: Lynn Wolters
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  #### Screenreader test
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+- Screenreader gaat goed door koppen heen, maar ziet broodtekst ook als kopniveau, ik weet niet of dat de bedoeling is.
+- Screenreader denkt ook dat telefoon nummers onderin onderdeel zijn van de navigatie, misschien is dat niet de bedoeling.
 
+  #### Muis, toetsenbord & kleurtjes test
 
-  #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Muis
+- Gaat prima, duidelijke navigatie
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Toetsenbord
+- Tab: werkt, maar misschien niet handig dat er wordt getabt tussen alle kleurtjes waarin een product beschikbaar is.
+- Spatie: doet het goed
+- Enter: werkt voor het hamburger menu
 
+Kleurtjes
+- Maak tekst op knoppen en/of knoppen groter, doe lichte letters op donkere achtergrond bij knoppen, kijk voor een andere kleur voor de titel (wit is niet goed leesbaar), maak nav elementen groter
 
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  #### Diverse beperkingen test
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Concentratieprobleem
+- Navigeren gaat best goed, maar bij de sliders naar rechts moet ik me te veel focussen en dan laat ik de ballon vallen 
 
+Visuele beperking
+- Central Field Loss/AMD: tekst op knoppen niet leesbaar
+- Combined eye loss-diabetic eye disease: ik merk geen verschil
+- Low contrast: vooral titel is bijna onleesbaar geworden, net als tekst op knoppen en zwarte kleine letters op witte achtergrond
+- Blur: ik zie geen navigatie, geen zwarte letters op wit, geen tekst op knoppen
+- Color #0779P: geen verschil, kleurcontrast is misschien juist beter
+- Hemifield Loss: geen verschil
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+Shock
+P Niet gedaan, te pijnlijk
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Elastiekjes
+- Maak links en knoppen groter, want dat is lastig aan te klikken als je minder vingers hebt/geen goede motoriek over je handen
 </details>
 
 
@@ -240,26 +256,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  #### Ging goed
+  - Responsiveness
+  - Hamburger menu
+  - Positioneren ging beter
+
+  #### Kon beter
+  - *
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Guido: Hoe kan ik ervoor zorgen dat de tekst en afbeeldingen in één grid column komen?
 
+  Chloé: Hoe kan ik zonder Javascript pijltjes maken in de slider? Hoe kan je tekst wanneer de pagina groter wordt tevoorschijn laten komen naast een img icon?
+
+  Lynn: Hoe maak ik de side navigatie op de product pagina? Hoe navigeer ik door een slider met buttons?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
