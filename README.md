@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  Surface plane
+  Responsiveness
  
 </details>
 
@@ -274,6 +274,8 @@ Elastiekjes
   Lynn: Hoe maak ik de side navigatie op de product pagina? Hoe navigeer ik door een slider met buttons?
 
   ### Verslag van meeting
+
+  Tijdens de meeting hebben wij eerst onze code aan Sanne laten zien waarop hij feedback gaf en vragen stelde over hoe wij het hadden gemaakt. Hierin kwam naar voren dat ik een onderscheid moet maken in het gebruiken van een a link of button. Ook moet ik H tags op een chronologische volgorde gaan gebruiken in sections. Daarna kwamen de vraagstukken aan bod. Guido mocht beginnen met de vraag hoe hij items in een grid kreeg en het responsive kon maken. Dit werd gedaan met display grid, en vervolgens voor elke media query de columns aanpassen. Daarna was ik aan de beurt. Sanne liet ons zien hoe je een side navbar maakt die sticky is. Helaas lukte het toen niet goed maar ik heb de oplossing alsnog ontvangen na de les. Als laatste was Chloé. Zij had de vraag hoe je met buttons door een slider kan navigeren zonder Javascript Dit kon helaas niet maar Sanne maakte een Codepen aan voor haar waarin hij uitlegde hoe het wel kon.
 
 </details>
 
