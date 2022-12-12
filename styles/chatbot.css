@@ -1,0 +1,24 @@
+/***********/
+/* MOBIEL */
+/***********/
+
+/* Chatbot */
+body > button img {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 1000;
+  width: 4em;
+  height: 3.5em;
+}
+
+/***********/
+/* DESKTOP */
+/***********/
+
+/* Chatbot verwijderen desktop */
+@media (min-width: 58em) {
+  body > button img {
+    display: none;
+  }
+}

@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 
 <html lang="nl">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Lynn Wolters" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Lynn Wolters</title>
+    <!-- Meta tags -->
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Lynn Wolters"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link href="styles/style.css" rel="stylesheet" />
+    <!-- Titel van pagina -->
+    <title>Lynn Wolters - Product Page</title>
 
-    <link href="styles/header-mobile-home-page.css" rel="stylesheet" />
-    <link href="styles/header-tablet-home-page.css" rel="stylesheet" />
-    <link href="styles/header-desktop-home-page.css" rel="stylesheet" />
+    <!-- Stylesheets -->
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href="styles/header.css" rel="stylesheet"/>
+    <link href="styles/main-product-page.css" rel="stylesheet"/>
+    <link href="styles/aside.css" rel="stylesheet"/>
+    <link href="styles/footer.css" rel="stylesheet"/>
+    <link href="styles/chatbot.css" rel="stylesheet"/>
 
-    <link href="styles/main-mobile-product-page.css" rel="stylesheet" />
-    <link href="styles/main-tablet-product-page.css" rel="stylesheet" />
-    <link href="styles/main-desktop-product-page.css" rel="stylesheet" />
+    <!-- Favicon website -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg"/> 
 
-    <link href="styles/footer-mobile-home-page.css" rel="stylesheet" />
-    <link href="styles/footer-tablet-home-page.css" rel="stylesheet" />
-    <link href="styles/footer-desktop-home-page.css" rel="stylesheet" />
-
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
   </head>
 
   <body>
-    <header>
-      <a href="#"
-        ><img
-          src="images/ace-and-tate-logo.png"
-          width="120em"
-          height="24em"
-          alt="logo"
-      /></a>
 
+    <header>
+
+      <!-- Logo -->
+      <a href="index.html"><img src="images/ace-and-tate-logo.png" alt="logo"/></a>
+
+      <!-- Uitschuifbare hamburger menu -->
       <nav>
-        <button>
-          <img
-            src="images/hamburger-menu.svg"
-            width="24em"
-            height="12em"
-            alt="hamburger-menu"
-          />
-        </button>
+        <button><img src="images/hamburger-menu.svg" alt="hamburger-menu"/></button>
         <nav>
-          <button aria-hidden="true">
-            <img src="images/close-button.svg" alt="close-button" />
-          </button>
+          <button><img src="images/close-button.svg" alt="close-button"/></button>
           <ul>
             <li><a href="#">Brillen</a></li>
             <li><a href="#">Zonnebrillen</a></li>
@@ -60,56 +49,35 @@
             <li><a href="#">Mijn account</a></li>
             <li><a href="#">Contact opnemen</a></li>
           </ul>
-          <img
-            src="images/beeldmerk-ace-and-tate.svg"
-            alt="beeldmerk-ace-and-tate"
-          />
+          <img src="images/beeldmerk-ace-and-tate.svg" alt="beeldmerk-ace-and-tate">
         </nav>
       </nav>
 
+      <!-- Iconen -->
       <nav>
         <ul>
-          <li>
-            <button>
-              <img src="images/search-icon.svg" alt="search-icon" />
-            </button>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/favorite-icon.svg" alt="favorite-icon" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/profile-icon.svg" alt="profile-icon" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/shopping-bag-icon.svg" alt="shopping-bag-icon" />
-            </a>
-          </li>
+          <li><button> <img src="images/search-icon.svg" alt="search-icon" /></button></li>
+          <li><a href="#"><img src="images/favorite-icon.svg" alt="favorite-icon" /></a></li>
+          <li><a href="#"><img src="images/profile-icon.svg" alt="profile-icon" /></a></li>
+          <li><a href="#"><img src="images/shopping-bag-icon.svg" alt="shopping-bag-icon" /></a></li>
         </ul>
       </nav>
 
+      <!-- Bottom navigatie (mobiel / tablet) (verwdijnt op desktop) -->
       <nav>
         <ul>
-          <li>
-            <a href="#">Brillen</a>
-          </li>
-          <li>
-            <a href="#">Zonnebrillen</a>
-          </li>
-          <li>
-            <a href="#">Oogmeting</a>
-          </li>
+          <li><a href="#">Brillen</a></li>
+          <li><a href="#">Zonnebrillen</a></li>
+          <li><a href="#">Oogmeting</a></li>
         </ul>
       </nav>
 
+      <!-- USP's bovenaan pagina -->
       <ul>
         <li>Ontdek onze nieuwe collectie. <a href="#">Shop nu</a></li>
       </ul>
 
+      <!-- Navigatie desktop (komt tevooschijn op desktop) -->
       <nav>
         <ul>
           <li><a href="#">Brillen</a></li>
@@ -122,252 +90,170 @@
           <li><a href="#">Inloggen</a></li>
         </ul>
       </nav>
+
     </header>
 
     <main>
-      <section>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="images/model-1.jpg" alt="model-1.jpg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="images/model-2.jpg" alt="model-2" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="images/rosa-terrazzo-front.jpg"
-                alt="rosa-terrazzo-front"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="images/rosa-terrazzo-profile.jpg"
-                alt="rosa-terrazzo-profile"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="images/rosa-terrazzo-side.jpg"
-                alt="rosa-terrazzo-side"
-              />
-            </a>
-          </li>
-        </ul>
-      </section>
 
+      <!-- Informatie product -->
       <section>
-        <h2>Rosa</h2>
+        <h1>Rosa</h1>
         <p>Vanaf <span>€110</span> Met glazen op sterkte</p>
-        <hr />
+        <p>Golden Hour</p>
         <ul>
-          <p>Golden Hour</p>
-          <li>
-            <button>
-              <img src="images/golden-hour.svg" alt="golden-hour" />
-            </button>
-          </li>
-          <li>
-            <button><img src="images/sunset.svg" alt="sunset" /></button>
-          </li>
-          <li>
-            <button><img src="images/terrazzo.svg" alt="terrazzo" /></button>
-          </li>
-          <li>
-            <button><img src="images/indica.svg" alt="indica" /></button>
-          </li>
+          <li><button><img src="images/golden-hour.svg" alt="golden-hour"/></button></li>
+          <li><button><img src="images/sunset.svg" alt="sunset"/></button></li>
+          <li><button><img src="images/terrazzo.svg" alt="terrazzo" /></button></li>
+          <li><button><img src="images/indica.svg" alt="indica"/></button></li>
         </ul>
-        <hr />
         <a href="#">Selecteer glazen en koop</a>
         <button><img src="images/favorite-icon.svg" alt="favorite-icon"></button>
-        <hr />
         <ul>
-          <li>
-            <button>Inclusief</button>
-            <img src="images/close-button.svg" alt="close-button">
-          </li>
-          <hr />
-          <li>
-            <button>Omschrijving en fitting guide</button>
-            <img src="images/close-button.svg" alt="close-button">
-          </li>
-          <hr />
-          <li>
-            <button>Responsibilty</button>
-            <img src="images/close-button.svg" alt="close-button">
-          </li>
+          <li><button>Inclusief</button></li>
+          <li><button>Omschrijving en fitting guide</button></li>
+          <li><button>Responsibilty</button></li>
         </ul>
-        <hr />
-       <h3>
-        Rosa has a classic charm, yet feels reassuringly modern. Always down to cause a bit of a stir, and absolutely unafraid of attention, Rosa won’t play by the rules.
-       </h3>
       </section>
 
+      <!-- Quote -->
       <section>
-        <h2>Deze zouden je ook goed staan.</h2>
+        <h2>Rosa has a classic charm, yet feels reassuringly modern. Always down to cause a bit of a stir, and absolutely unafraid of attention, Rosa won’t play by the rules.</h2>
+      </section>
 
+      <!-- Slider bovenaan pagina -->
+      <section>
+        <ul>
+          <li><a href="#"><img src="images/model-1.jpg" alt="model-1.jpg" /></a></li>
+          <li><a href="#"><img src="images/model-2.jpg" alt="model-2" /></a></li>
+          <li><a href="#"><img src="images/rosa-terrazzo-front.jpg" alt="rosa-terrazzo-front"/></a></li>
+          <li><a href="#"><img src="images/rosa-terrazzo-profile.jpg" alt="rosa-terrazzo-profile"/></a></li>
+          <li><a href="#"><img src="images/rosa-terrazzo-side.jpg" alt="rosa-terrazzo-side"/></a></li>
+        </ul>
+      </section>
+
+      <!-- Deze zouden je ook goed staan slider -->
+      <aside>
+        <h2>Deze zouden je ook goed staan.</h2>
         <ul>
           <li>
-            <a href="#">
-              <img src="images/alfred-1.jpg" alt="alfred-1" />
-            </a>
+            <a href="#"><img src="images/alfred-1.jpg" alt="alfred-1" /></a>
             <p>Alfred</p>
             <img src="images/favorite-icon.svg" alt="favorite-icon">
           </li>
           <li>
-            <a href="#">
-              <img src="images/alfred-2.jpg" alt="alfred-1" />
-            </a>
+            <a href="#"><img src="images/alfred-2.jpg" alt="alfred-1" /></a>
             <p>Alfred</p>
             <img src="images/favorite-icon.svg" alt="favorite-icon">
           </li>
           <li>
-            <a href="#">
-              <img src="images/alfred-3.jpg" alt="alfred-1" />
-            </a>
+            <a href="#"><img src="images/alfred-3.jpg" alt="alfred-1" /></a>
             <p>Alfred</p>
             <img src="images/favorite-icon.svg" alt="favorite-icon">
           </li>
           <li>
-            <a href="#">
-              <img src="images/alfred-large.jpg" alt="alfred-large" />
-            </a>
+            <a href="#"><img src="images/alfred-large.jpg" alt="alfred-large" /></a>
             <p>Alfred Large</p>
             <img src="images/favorite-icon.svg" alt="favorite-icon">
           </li>
         </ul>
-      </section>
+      </aside>
 
-      <section>
-        <h3>Onze winkels</h3>
-        <img src="images/winkel.jpg" alt="winkel" />
-        <h5>
-          Bezoek onze winkels voor de gehele collectie, stijladvies of een
-          gratis oogmeting. Meer info over openingstijden en beschikbare service
-          bij jou in de buurt vind je op de individuele winkelpagina.
-        </h5>
-        <a href="#">Alle winkels</a>
-      </section>
-
-      <section>
-        <h3>Er komen goede dingen jouw kant op</h3>
-        <h5>
-          Wees als eerste op de hoogte van alles bij Ace & Tate — denk aan
-          events, nieuwe producten en speciale releases. Ja, er komen goede
-          dingen aan!
-        </h5>
-        <form>
-          <input type="email" placeholder="E-mailadres">
-          <input type="submit">
-        </form>
-        <p>Raadpleeg ons <a>privacybeleid</a> voor meer informatie over hoe we jouw persoonsgegevens verzamelen en verwerken.</p>
-      </section>
     </main>
 
+    <!-- Onze winkels -->
+    <aside>
+      <h2>Onze winkels</h2>
+      <img src="images/winkel.jpg" alt="winkel" />
+      <h3>
+        Bezoek onze winkels voor de gehele collectie, stijladvies of een
+        gratis oogmeting. Meer info over openingstijden en beschikbare service
+        bij jou in de buurt vind je op de individuele winkelpagina.
+      </h3>
+      <a href="#">Alle winkels</a>
+    </aside>
+
+    <!-- Er komen goede dingen jouw kant op -->
+    <aside>
+      <h2>Er komen goede dingen jouw kant op</h2>
+      <h3>
+        Wees als eerste op de hoogte van alles bij Ace & Tate — denk aan
+        events, nieuwe producten en speciale releases. Ja, er komen goede
+        dingen aan!
+      </h3>
+      <form>
+        <input type="email" placeholder="E-mailadres">
+        <button type="submit">Verzenden</button>
+      </form>
+      <p>Raadpleeg ons <a>privacybeleid</a> voor meer informatie over hoe we jouw persoonsgegevens verzamelen en verwerken.</p>
+    </aside>
+
     <footer>
+
+      <!-- We staan voor je klaar -->
       <ul>
-        <li><h3>We staan voor je klaar</h3></li>
-        <li><h5>Ma - Vr, 9:00 - 18:00</h5></li>
-        <li>
-          <a href="#"
-            ><img src="images/telephone.svg" alt="telephone" />+31
-            (0)20-2050738</a
-          >
-        </li>
-        <li>
-          <a href="#"
-            ><img src="images/whatsapp.svg" alt="whatsapp" />+31 97010240634</a
-          >
-        </li>
-        <li>
-          <a href="#"
-            ><img src="images/email.svg" alt="email" />hallo@aceandtate.nl</a
-          >
-        </li>
+        <li><h2>We staan voor je klaar</h2></li>
+        <li><p>Ma - Vr, 9:00 - 18:00</p></li>
+        <li><a href="#"><img src="images/telephone.svg" alt="telephone">+31 (0)20-2050738</a></li>
+        <li><a href="#"><img src="images/whatsapp.svg" alt="whatsapp">+31 97010240634</a></li>
+        <li><a href="#"><img src="images/email.svg" alt="email">hallo@aceandtate.nl</a></li>
       </ul>
+
+      <!-- Footer navigatie -->
       <ul>
-        <li><a href="#">Brillen</a></li>
-        <li><a href="#">Zonnebrillen</a></li>
-        <li><a href="#">Accessoires</a></li>
-        <li><a href="#">Producten</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Leveringsopties</a></li>
-        <li><a href="#">Over ons</a></li>
-        <li><a href="#">Verantwoordelijkheid</a></li>
-        <li><a href="#">Vacatures</a></li>
-        <li><a href="#">Opticiens</a></li>
-        <li><a href="#">Hulp</a></li>
-        <li><a href="#">FAQ</a></li>
+          <li><a href="#">Brillen</a></li>
+          <li><a href="#">Zonnebrillen</a></li>
+          <li><a href="#">Accessoires</a></li>
+          <li><a href="#">Producten</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Leveringsopties</a></li>
+          <li><a href="#">Over ons</a></li>
+          <li><a href="#">Verantwoordelijkheid</a></li>
+          <li><a href="#">Vacatures</a></li>
+          <li><a href="#">Opticiens</a></li>
+          <li><a href="#">Hulp</a></li>
+          <li><a href="#">FAQ</a></li>
       </ul>
+
+      <!-- Laat je ogen spreken -->
       <ul>
-        <li>
-          <img
-            src="images/certified-corporation.svg"
-            alt="certified-corporation"
-          />
-        </li>
-        <li>
-          <h3>
-            laat je ogen <br />
-            spreken
-          </h3>
-        </li>
+        <li><img src="images/certified-corporation.svg" alt="certified-corporation"></li>
+        <li><h3>laat je ogen <br> spreken</h3></li>
       </ul>
+
+      <!-- Locatie / taal -->
       <ul>
-        <li><img src="images/location.svg" alt="location" /></li>
-        <li><a href="#">Nederlands</a></li>
-        <li><a href="#">Dutch</a></li>
+        <li><img src="images/location.svg" alt="location"></li>
+        <li><button>Nederlands</button></li>
+        <li><button>Dutch</button></li>
       </ul>
-      <hr />
+
+      <!-- Lijn -->
+      <div></div>
+
+      <!-- Copyright -->
       <p>© 2022 Ace & Tate. Alle rechten voorbehouden</p>
+
+      <!-- Sociale media -->
       <ul>
-        <li>
-          <a href="#"><img src="images/facebook.svg" alt="facebook" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/twitter.svg" alt="twitter" /></a><a/li>
-        </li>
-        <li>
-          <a href="#"><img src="images/instagram.svg" alt="instagram" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/soundcloud.svg" alt="soundcloud" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/medium.svg" alt="medium" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/linkedin.svg" alt="linkedin" /></a>
-        </li>
+        <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
+        <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a><a/li>
+        <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+        <li><a href="#"><img src="images/soundcloud.svg" alt="soundcloud"></a></li>
+        <li><a href="#"><img src="images/medium.svg" alt="medium"></a></li>
+        <li><a href="#"><img src="images/linkedin.svg" alt="linkedin"></a></li>
       </ul>
+
+      <!-- Betaalmethodes -->
       <ul>
-        <li>
-          <a href="#"><img src="images/applepay.svg" alt="applepay" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/ideal.svg" alt="ideal" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/mastercard.svg" alt="mastercard" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/visa.svg" alt="visa" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/paypal.svg" alt="paypal" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/klarna.svg" alt="klarna" /></a>
-        </li>
+        <li><img src="images/applepay.svg" alt="applepay"></li>
+        <li><img src="images/ideal.svg" alt="ideal"></li>
+        <li><img src="images/mastercard.svg" alt="mastercard"></li>
+        <li><img src="images/visa.svg" alt="visa"></li>
+        <li><img src="images/paypal.svg" alt="paypal"></li>
+        <li><img src="images/klarna.svg" alt="klarna"></li>
       </ul>
+
+      <!-- Overige informatie -->
       <ul>
         <li><a href="#">algemene voorwaarden</a></li>
         <li><a href="#">website voorwaarden</a></li>
@@ -376,10 +262,15 @@
         <li><a href="#">cookiebeleid</a></li>
         <li><a href="#">toegankelijkheid</a></li>
       </ul>
+
     </footer>
 
-    <img src="images/chat.png" alt="chat" />
+    <!-- Chatbot -->
+    <button><img src="images/chatbot.png" alt="chatbot"></button>
 
+    <!-- Script -->
     <script defer src="scripts/script.js"></script>
+
   </body>
+
 </html>

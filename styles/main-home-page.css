@@ -1,0 +1,507 @@
+/**********/
+/* MOBIEL */
+/**********/
+
+/* Verstoppen van elementen maar nog wel voor laten lezen */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Video */
+main section:nth-of-type(1) video {
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: -1em;
+}
+
+main section:nth-of-type(1) a {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  top: 72%;
+  left: 50%;
+  padding: 1em 3em;
+  border-radius: 1000em;
+  border: none;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 0.2s;
+}
+
+main section:nth-of-type(1) a:hover {
+  opacity: 0.85;
+}
+
+/* Quote banner */
+main section:nth-of-type(2) {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section:nth-of-type(2) h2 {
+  color: var(--primary-color);
+  padding: 3.5em 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+main section:nth-of-type(2) h2 span {
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  line-height: 1.6em;
+}
+
+/* Ontdek onze bestsellers */
+main section:nth-of-type(3) {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+}
+
+main section:nth-of-type(3) h2 {
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  width: 100%;
+}
+
+main section:nth-of-type(3) h2 span {
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+}
+
+main section:nth-of-type(3) ul {
+  display: flex;
+  gap: 1em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  list-style: none;
+  margin-left: 1em;
+}
+
+main section:nth-of-type(3) ul li {
+  width: 12em;
+  flex-shrink: 0;
+  height: auto;
+}
+
+main section:nth-of-type(3) ul li:last-of-type {
+  margin-right: 1em;
+}
+
+main section:nth-of-type(3) ul li img {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+main section:nth-of-type(3) ul li h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  padding: 0.5em 0;
+  font-size: 1em;
+}
+
+main section:nth-of-type(3) ul li p {
+  font-weight: 100;
+}
+
+main section:nth-of-type(3) ul li button {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 1000em;
+  margin: 0;
+  margin-top: 1em;
+  padding: 0;
+  border: none;
+}
+
+main section:nth-of-type(3) ul li button img {
+  width: 1.2em;
+  height: 1.2em;
+  transition: 0.2s;
+}
+
+main section:nth-of-type(3) ul li button img:hover {
+  border: 0.1em solid var(--septenary-color);
+  border-radius: 1000em;
+  padding: 0.2em;
+}
+
+main section:nth-of-type(3) > a {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 1000em;
+  margin: 4em 0;
+  padding: 1em 3em;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+main section:nth-of-type(3) > a:hover {
+  background-color: var(--octonary-color);
+}
+
+/* Shop onze gift guide */
+main section:nth-of-type(4) {
+  width: 100vw;
+  background-color: var(--quinary-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(4) img {
+  width: 100%;
+  height: 24em;
+  object-fit: cover;
+}
+
+main section:nth-of-type(4) h3 {
+  font-weight: 400;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1em;
+  order: 1;
+}
+
+main section:nth-of-type(4) h2 {
+  padding: 0.8em;
+  font-weight: 400;
+  text-align: center;
+  order: 2;
+}
+
+main section:nth-of-type(4) a {
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 1000em;
+  padding: 1em 3.5em;
+  margin-bottom: 2em;
+  color: var(--primary-color);
+  text-decoration: none;
+  order: 3;
+  transition: 0.2s;
+}
+
+main section:nth-of-type(4) a:hover {
+  background-color: var(--octonary-color);
+}
+
+/* Nieuw */
+main section:nth-of-type(5) {
+  width: 100vw;
+  position: relative;
+  background-color: var(--secondary-color);
+}
+
+main section:nth-of-type(5) h2 {
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  color: var(--primary-color);
+}
+
+main section:nth-of-type(5) ul {
+  display: flex;
+  gap: 1em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  list-style: none;
+  height: 26em;
+  margin-left: 1em;
+}
+
+main section:nth-of-type(5) ul li {
+  width: 12em;
+  height: 16em;
+  flex-shrink: 0;
+}
+
+main section:nth-of-type(5) ul li:last-of-type {
+  margin-right: 1em;
+}
+
+main section:nth-of-type(5) ul li img {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+main section:nth-of-type(5) ul li p {
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 0.5em 0;
+  color: var(--primary-color);
+  padding-top: 1em;
+}
+
+main section:nth-of-type(5) ul li h3 {
+  color: var(--primary-color);
+  font-weight: 400;
+  line-height: 1.6em;
+  padding: 0.8em 0;
+  font-size: 1em;
+}
+
+main section:nth-of-type(5) ul li a {
+  color: var(--primary-color);
+  font-weight: 100;
+  font-size: 0.8em;
+  transition: 0.2s;
+}
+
+main section:nth-of-type(5) ul li a:hover {
+  color: var(--nonary-color)
+}
+
+/* We zijn er om te helpen */
+main section:nth-of-type(6) {
+  width: 100vw;
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+main section:nth-of-type(6) h2 {
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  color: var(--secondary-color);
+}
+
+main section:nth-of-type(6) ul {
+  display: flex;
+  gap: 1em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  list-style: none;
+  height: 22em;
+  margin-left: 1em;
+}
+
+main section:nth-of-type(6) ul li {
+  width: 12em;
+  height: 16em;
+  flex-shrink: 0;
+}
+
+main section:nth-of-type(6) ul li:last-of-type {
+  margin-right: 1em;
+}
+
+main section:nth-of-type(6) ul li img {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+main section:nth-of-type(6) ul li p {
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 0.5em 0;
+  color: var(--secondary-color);
+  padding-top: 1em;
+}
+
+main section:nth-of-type(6) ul li h5 {
+  color: var(--secondary-color);
+  font-weight: 400;
+  line-height: 1.6em;
+  padding: 0.8em 0;
+}
+
+main section:nth-of-type(6) ul li a {
+  color: var(--secondary-color);
+  font-weight: 100;
+  font-size: 0.8em;
+  transition: 0.2s;
+}
+
+main section:nth-of-type(6) ul li a:hover {
+  color: var(--nonary-color)
+}
+
+/* Volg ons */
+main section:nth-of-type(7) {
+  background-color: var(--quaternary-color);
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 100vw;
+}
+
+main section:nth-of-type(7) h2 {
+  font-weight: 400;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+main section:nth-of-type(7) ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+main section:nth-of-type(7) ul li {
+  list-style: none;
+}
+
+main section:nth-of-type(7) ul li a img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+main section:nth-of-type(7) a {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 0.7em;
+  padding: 5em 0;
+  text-align: center;
+}
+
+/**********/
+/* TABLET */
+/**********/
+
+@media (min-width: 30em) {
+  /* Ontdek onze bestsellers */
+  main section:nth-of-type(3) ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 1em;
+  }
+
+  main section:nth-of-type(3) ul li {
+    width: unset;
+  }
+
+  main section:nth-of-type(3) ul li img {
+    height: 10em;
+  }
+
+  main section:nth-of-type(3) ul li:last-of-type {
+    margin-right: 0;
+  }
+
+  /* Shop onze gift guide */
+  main section:nth-of-type(4) {
+    background-image: url("../images/gifting.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  main section:nth-of-type(4) img {
+    display: none;
+  }
+
+  main section:nth-of-type(4) h3 {
+    width: 100vw;
+    margin-top: 4em;
+  }
+
+  main section:nth-of-type(4) h2 {
+    width: 100vw;
+  }
+
+  main section:nth-of-type(4) a {
+    margin-bottom: 4em;
+  }
+}
+
+/**********/
+/* DESKTOP */
+/**********/
+
+@media (min-width: 58em) {
+  /* Ontdek onze bestsellers */
+  main section:nth-of-type(3) ul {
+    width: inherit;
+    margin: 0 6em;
+  }
+
+  main section:nth-of-type(3) ul li img {
+    height: 16em;
+  }
+
+  /* Shop onze gift guide */
+  main section:nth-of-type(4) h3 {
+    margin-top: 8em;
+    font-size: 1.5em;
+  }
+
+  main section:nth-of-type(4) h2 {
+    font-size: 3em;
+  }
+
+  main section:nth-of-type(4) a {
+    margin-bottom: 10em;
+  }
+
+  /* Nieuw */
+  main section:nth-of-type(5) ul {
+    height: 32em;
+    margin-left: 6em;
+  }
+
+  main section:nth-of-type(5) ul li {
+    width: 18em;
+  }
+
+  main section:nth-of-type(5) ul li img {
+    height: 26em;
+  }
+
+  /* We zijn er om je te helpen */
+  main section:nth-of-type(6) ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 6em;
+  }
+
+  main section:nth-of-type(6) ul li {
+    width: unset;
+  }
+
+  main section:nth-of-type(6) ul li img {
+    height: 16em;
+  }
+
+  main section:nth-of-type(6) ul li:last-of-type {
+    margin-right: 0;
+  }
+
+  /* Volg ons */
+  main section:nth-of-type(7) ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 6em;
+  }
+
+  main section:nth-of-type(7) ul li:nth-of-type(4) {
+    display: none;
+  }
+}

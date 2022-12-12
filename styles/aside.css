@@ -1,0 +1,175 @@
+/**********/
+/* MOBIEL */
+/**********/
+
+/* Grid */
+body {
+  display: grid;
+}
+
+/* Onze winkels */
+body > aside:nth-of-type(1) {
+  background-color: var(--senary-color);
+  padding: 4em 1em;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+body > aside:nth-of-type(1) h2 {
+  font-weight: 400;
+  font-size: 2em;
+  width: 100%;
+}
+
+body > aside:nth-of-type(1) img {
+  width: 100%;
+  max-width: 18.75em;
+  display: block;
+}
+
+body > aside:nth-of-type(1) h3 {
+  flex-basis: 16em;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+body > aside:nth-of-type(1) a {
+  color: var(--secondary-color);
+  width: 100%;
+  transition: 0.2s;
+}
+
+body > aside:nth-of-type(1) a:hover {
+  color: var(--octonary-color);
+}
+
+/* Er komen goede dingen jouw kant op */
+body > aside:nth-of-type(2) {
+  background-color: var(--tertiary-color);
+  padding: 4em 1em;
+}
+
+body > aside:nth-of-type(2) h2 {
+  font-weight: 400;
+  font-size: 2em;
+  color: var(--senary-color);
+}
+
+body > aside:nth-of-type(2) h3 {
+  color: var(--senary-color);
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-top: 2em;
+  font-size: 1em;
+  padding-bottom: 4em;
+}
+
+body > aside:nth-of-type(2) p {
+  color: var(--senary-color);
+}
+
+body > aside:nth-of-type(2) p a {
+  text-decoration: underline;
+}
+
+body > aside:nth-of-type(2) form {
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+  height: 3.5em;
+}
+
+body > aside:nth-of-type(2) form input {
+  border-radius: 0.5em 0 0 0.5em;
+  border: var(--primary-color) solid 0.1em;
+  background-color: var(--tertiary-color);
+
+  padding-left: 1em;
+}
+
+body > aside:nth-of-type(2) form input::placeholder {
+  color: var(--senary-color);
+}
+
+body > aside:nth-of-type(2) form button {
+  border-radius: 0 0.5em 0.5em 0;
+  border: none;
+  padding: 0 1em;
+  transition: 0.2s;
+}
+
+body > aside:nth-of-type(2) form button:hover {
+  background-color: var(--nonary-color);
+}
+
+body > aside:nth-of-type(2) p {
+  padding-top: 2em;
+  line-height: 1.8em;
+  font-size: 0.8em;
+}
+
+body > aside:nth-of-type(2) p a {
+  transition: 0.2s;
+}
+
+body > aside:nth-of-type(2) p a:hover {
+  color: var(--nonary-color);
+}
+
+/**********/
+/* TABLET */
+/**********/
+
+@media (min-width: 30em) {
+  /* Onze winkels ruimte geven */
+  body > aside:nth-of-type(1) {
+    padding: 5em 3em;
+  }
+  /* Er komen goede dingen jouw kant op ruimte geven */
+  body > aside:nth-of-type(2) {
+    padding: 5em 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/**********/
+/* DESKTOP */
+/**********/
+
+@media (min-width: 58em) {
+  /* Grid */
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  header {
+    grid-column: span 2;
+  }
+
+  main {
+    grid-column: span 2;
+  }
+
+  footer {
+    grid-column: span 2;
+  }
+  /* Onze winkels / er komen goede dingen jouw kant op naast elkaar zetten */
+  body > aside:nth-of-type(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+  }
+
+  body > aside:nth-of-type(2) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 100%;
+  }
+}
