@@ -315,8 +315,12 @@ Elastiekjes
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+ - https://zellwk.com/blog/style-hover-focus-active-states/
+ - https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
+ - https://www.youtube.com/watch?v=br-0i3U1VCA 
+ - https://www.w3schools.com/csSref/css_selectors.php 
+ - https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/ 
+ - https://www.a11yproject.com/posts/how-to-hide-content/ 
+ - https://stackoverflow.com/ (heel veel problemen opgelost door deze site, specifieke bronnen heb ik niet meer)
 
 </details>
