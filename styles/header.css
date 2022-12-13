@@ -38,6 +38,11 @@ header > ul li a {
   color: var(--primary-color);
 }
 
+header > ul li a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 /* Hamburger menu */
 header nav:nth-of-type(1) > button {
   grid-row-start: 2;
@@ -63,6 +68,11 @@ header > a {
   border-top: 0;
   border-left: 0;
   border-bottom: 0.1em solid var(--senary-color);
+}
+
+header > a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 header > a img {
@@ -163,15 +173,25 @@ header nav:nth-of-type(2) ul {
   justify-content: space-evenly;
 }
 
-header nav:nth-of-type(2) li {
+header nav:nth-of-type(2) ul li {
   list-style: none;
   padding: 0.5em;
 }
 
-header nav:nth-of-type(2) button {
+header nav:nth-of-type(2) ul li button {
   list-style: none;
   background-color: var(--primary-color);
   border: none;
+}
+
+header nav:nth-of-type(2) ul li button:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
+header nav:nth-of-type(2) ul li a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* Bottom navigatie */
@@ -270,6 +290,11 @@ header nav:nth-of-type(4) {
     border-bottom: 0.15em solid var(--secondary-color) 
   }
 
+  header nav:nth-of-type(4) ul li a:focus-visible {
+    border: 0.2em solid var(--focus-color);
+    outline: none;
+  }
+  
   /* Profiel icoon verwijderen */
   header nav:nth-of-type(2) ul li:nth-of-type(3) {
     display: none;

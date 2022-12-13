@@ -40,6 +40,11 @@ main section:nth-of-type(1) a:hover {
   opacity: 0.85;
 }
 
+main section:nth-of-type(1) a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 /* Quote banner */
 main section:nth-of-type(2) {
   background-color: var(--secondary-color);
@@ -109,6 +114,11 @@ main section:nth-of-type(3) ul li img {
   object-fit: cover;
 }
 
+main section:nth-of-type(3) ul li img:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(3) ul li h3 {
   font-family: "Playfair Display", serif;
   font-weight: 100;
@@ -142,6 +152,11 @@ main section:nth-of-type(3) ul li button img:hover {
   padding: 0.2em;
 }
 
+main section:nth-of-type(3) ul li button img:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(3) > a {
   background-color: var(--secondary-color);
   border: none;
@@ -155,6 +170,11 @@ main section:nth-of-type(3) > a {
 
 main section:nth-of-type(3) > a:hover {
   background-color: var(--octonary-color);
+}
+
+main section:nth-of-type(3) > a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* Shop onze gift guide */
@@ -203,6 +223,11 @@ main section:nth-of-type(4) a:hover {
   background-color: var(--octonary-color);
 }
 
+main section:nth-of-type(4) a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 /* Nieuw */
 main section:nth-of-type(5) {
   width: 100vw;
@@ -244,6 +269,11 @@ main section:nth-of-type(5) ul li img {
   object-fit: cover;
 }
 
+main section:nth-of-type(5) ul li img:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(5) ul li p {
   text-transform: uppercase;
   font-weight: 100;
@@ -269,6 +299,11 @@ main section:nth-of-type(5) ul li a {
 
 main section:nth-of-type(5) ul li a:hover {
   color: var(--nonary-color)
+}
+
+main section:nth-of-type(5) ul li a:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* We zijn er om te helpen */
@@ -312,6 +347,11 @@ main section:nth-of-type(6) ul li img {
   object-fit: cover;
 }
 
+main section:nth-of-type(6) ul li img:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(6) ul li p {
   text-transform: uppercase;
   font-weight: 100;
@@ -336,6 +376,11 @@ main section:nth-of-type(6) ul li a {
 
 main section:nth-of-type(6) ul li a:hover {
   color: var(--nonary-color)
+}
+
+main section:nth-of-type(6) ul li a:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* Volg ons */
@@ -371,6 +416,11 @@ main section:nth-of-type(7) ul li a img {
   object-fit: cover;
 }
 
+main section:nth-of-type(7) ul li a img:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(7) a {
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -378,6 +428,11 @@ main section:nth-of-type(7) a {
   font-size: 0.7em;
   padding: 5em 0;
   text-align: center;
+}
+
+main section:nth-of-type(7) a:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /**********/

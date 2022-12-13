@@ -30,6 +30,11 @@ footer ul:nth-of-type(1) li a {
   color: var(--primary-color);
 }
 
+footer ul:nth-of-type(1) li a:focus-visible{
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 footer ul:nth-of-type(1) li a img {
   width: 1em;
   height: 1em;
@@ -55,6 +60,11 @@ footer ul:nth-of-type(2) li a {
 
 footer ul:nth-of-type(2) li a:hover {
   border-bottom: 0.05em solid var(--primary-color) 
+}
+
+footer ul:nth-of-type(2) li a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* Laat je ogen spreken */
@@ -96,6 +106,11 @@ footer ul:nth-of-type(4) li button:hover {
   color: var(--senary-color);
 }
 
+footer ul:nth-of-type(4) li button:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 /* Lijn */
 footer > div {
   border-top: solid 0.05em var(--primary-color);
@@ -129,6 +144,11 @@ footer ul:nth-of-type(5) li a img {
 
 footer ul:nth-of-type(5) li a img:hover {
   transform: scale(1.2);
+}
+
+footer ul:nth-of-type(5) li a img:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* Betaalmethodes */
@@ -175,6 +195,11 @@ footer ul:nth-of-type(7) li a {
 footer ul:nth-of-type(7) li a:hover {
   text-decoration: underline;
   color: var(--senary-color);
+}
+
+footer ul:nth-of-type(7) li a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /**********/

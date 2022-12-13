@@ -79,6 +79,11 @@ main section:nth-of-type(1) ul:nth-of-type(1) li button img:hover {
   padding: 0.2em;
 }
 
+main section:nth-of-type(1) ul:nth-of-type(1) li button img:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(1) > a {
   grid-column: span 1;
   height: 4em;
@@ -97,6 +102,11 @@ main section:nth-of-type(1) > a:hover {
   opacity: 0.8;
 }
 
+main section:nth-of-type(1) > a:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main section:nth-of-type(1) > button {
   grid-column: span 1;
   align-self: stretch;
@@ -112,6 +122,11 @@ main section:nth-of-type(1) > button {
 
 main section:nth-of-type(1) > button:hover {
   opacity: 0.5;
+}
+
+main section:nth-of-type(1) > button:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 main section:nth-of-type(1) ul:nth-of-type(2) {
@@ -163,7 +178,6 @@ main section:nth-of-type(3) ul:nth-of-type(1) {
   display: flex;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
-
   scroll-snap-type: x mandatory;
 }
 
@@ -186,7 +200,6 @@ main section:nth-of-type(3) ul:nth-of-type(1) li img {
 main aside:nth-of-type(1) {
   width: 100vw;
   margin-top: 2em;
-
   padding: 0 1em;
 }
 
@@ -201,16 +214,13 @@ main aside:nth-of-type(1) ul {
   gap: 1em;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
-
   scroll-snap-type: x mandatory;
 }
 
 main aside:nth-of-type(1) ul li {
   flex-shrink: 0;
   list-style: none;
-
   scroll-snap-align: center;
-
   display: grid;
   grid-template-columns: 1fr max-content;
   gap: 1em;
@@ -226,6 +236,11 @@ main aside:nth-of-type(1) ul li a img {
   object-fit: cover;
 }
 
+main aside:nth-of-type(1) ul li a img:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 main aside:nth-of-type(1) ul li p {
   color: var(--secondary-color);
   font-family: "Playfair Display", serif;
@@ -233,9 +248,14 @@ main aside:nth-of-type(1) ul li p {
   font-size: 0.8em;
 }
 
-main aside:nth-of-type(1) ul li img {
-  width: 1em;
-  height: 1em;
+main aside:nth-of-type(1) ul li button {
+  border: none;
+  background-color: var(--primary-color);
+}
+
+main aside:nth-of-type(1) ul li button:focus-visible {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /**********/

@@ -11,7 +11,6 @@ body {
 body > aside:nth-of-type(1) {
   background-color: var(--senary-color);
   padding: 4em 1em;
-
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
@@ -46,6 +45,11 @@ body > aside:nth-of-type(1) a {
 
 body > aside:nth-of-type(1) a:hover {
   color: var(--octonary-color);
+}
+
+body > aside:nth-of-type(1) a:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /* Er komen goede dingen jouw kant op */
@@ -95,6 +99,11 @@ body > aside:nth-of-type(2) form input::placeholder {
   color: var(--senary-color);
 }
 
+body > aside:nth-of-type(2) form input:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
+}
+
 body > aside:nth-of-type(2) form button {
   border-radius: 0 0.5em 0.5em 0;
   border: none;
@@ -104,6 +113,11 @@ body > aside:nth-of-type(2) form button {
 
 body > aside:nth-of-type(2) form button:hover {
   background-color: var(--nonary-color);
+}
+
+body > aside:nth-of-type(2) form button:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 body > aside:nth-of-type(2) p {
@@ -118,6 +132,11 @@ body > aside:nth-of-type(2) p a {
 
 body > aside:nth-of-type(2) p a:hover {
   color: var(--nonary-color);
+}
+
+body > aside:nth-of-type(2) p a:focus-visible  {
+  border: 0.2em solid var(--focus-color);
+  outline: none;
 }
 
 /**********/
