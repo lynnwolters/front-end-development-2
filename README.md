@@ -54,7 +54,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details open>
+<details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 <br>
   Getest door: Guido Van Sark
@@ -112,17 +112,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details open>
+<details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets-1.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschets-2.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### code dynamisch deel:
+  <img src="readme-images/code-dynamisch-deel.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -132,7 +132,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
@@ -164,7 +164,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -199,7 +199,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details open>
+<details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 <br>
   Getest door: Agnes Verhagen
@@ -252,7 +252,7 @@ Elastiekjes
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
@@ -285,23 +285,31 @@ Elastiekjes
 
 ## Eindgesprek (week 5)
 
-<details open>
+<details>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/1.jpg" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/2.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/3.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/4.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/5.jpg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  - Snel oppakken van nieuwe theorie
+  - Semantische correcte HTML 
+  - Werken met CSS selectoren
+  - Basic JavaScript
+  - Sliders maken
+  - Toegankelijkheid
+  - Veel problemen zonder hulp oplossen (zelf naar oplossing zoeken)
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  - Side navigatie is mij niet zelf gelukt
+  - Positioneren
+  - Sliders
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -310,7 +318,7 @@ Elastiekjes
 
 ## Bronnenlijst
 
-<details open>
+<details>
   <summary>continu bijhouden terwijl je werkt</summary>
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
